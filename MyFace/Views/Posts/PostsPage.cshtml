@@ -3,3 +3,14 @@
 @{
     Layout = "_Layout";
 }
+<a class="nav-link text-dark" asp-area="" asp-controller="Posts" asp-action="CreatePostPage">Create a Posts</a>
+
+<li>
+    @foreach (var post in Model.Posts)
+    {
+        <li>@post.PostedBy.Id</li>
+        <img src="@post.ImageUrl" alt="Post Image"/>
+        <li>@post.Message</li>
+        <li>@post.PostedAt</li>
+    }
+</li>
