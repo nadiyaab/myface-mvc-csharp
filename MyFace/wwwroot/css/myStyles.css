@@ -1,0 +1,44 @@
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: white;
+}
+
+.nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-link {
+  background: black;
+  padding: 27px 100px;
+  text-decoration: none;
+  color: white;
+  font-family: Arial;
+}
+
+body {
+  margin: 0;
+}
+
+.footer-corndel-logo {
+  width: 100vw;
+  height: 100vw;
+  padding: 50;
+}
+
+.footer-softwire-logo {
+  width: 26vw;
+  height: 6vw;
+  padding: 25;
+}
+/*# sourceMappingURL=myStyles.css.map */

@@ -1,0 +1,41 @@
+
+$background: #252a38;
+$darkerBackground: #151820;
+$defaultForeground: #DCDCDC;
+$transparentOverlay: #252a3880;
+
+
+$font: "Open Sans";
+$regularTextWeight: 400;
+$boldWeight: 600;
+
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-link{
+    background: black;
+    padding: 27px 100px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+}
+body{
+    margin: 0;
+}
+.footer-corndel-logo{
+    width: 100vw;
+    height: 100vw;
+    padding: 50;
+}
+.footer-softwire-logo{
+    width: 26vw;
+    height: 6vw;
+    padding: 25;
+}
